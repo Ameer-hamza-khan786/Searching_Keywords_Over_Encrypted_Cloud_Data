@@ -9,8 +9,8 @@ It combines privacy and optimized searchability by allowing secure keyword searc
 
 ### Technologies Used
 - **Programming Language:** C++
-- **Socket Programming** 
-- **AES-CBC Encryption** <openssl/evp.h> library
+- **Socket Programming** <sys/socket.h> ,<netinet/in.h> and <arpa/inet.h> 
+- **AES-CBC Encryption** <openssl/evp.h> 
 
 ### Key Features
 - **Data Security:** Utilizes AES-CBC encryption to ensure data privacy.
